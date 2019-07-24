@@ -19,7 +19,9 @@ public class isPtInTri {
     }
     public static void main(String args[]){
 
-        if (isInside(0, 0, 20, 0, 10, 30, 40, 15)) {
+        // the first three pairs of elements belong to the triangle
+        // the last pair belongs to the point
+        if (isInside(0, 0, 20, 0, 10, 30, 05, 15)) {
             System.out.println("The point is within the triangle");
         }else{
             System.out.println("The point is outside the triangle");
